@@ -5,11 +5,17 @@ All models use type annotations and support optional fields where appropriate.
 """
 
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 import numpy as np
 import networkx as nx
-from rasterio.transform import Affine
-from rasterio.crs import CRS
+
+# Optional rasterio — graceful fallback for cloud deployment
+try:
+    from rasterio.transform import Affine
+    from rasterio.crs import CRS
+except ImportError:
+    Affine = Any
+    CRS = Any
 
 
 @dataclass
