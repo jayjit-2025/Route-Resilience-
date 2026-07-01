@@ -8,9 +8,17 @@ from __future__ import annotations
 
 import io
 import logging
+import sys
 import tempfile
 from pathlib import Path
 from typing import Optional
+
+# ── Fix sys.path for Streamlit Cloud deployment ─────────────────────────────
+# On Streamlit Cloud the app runs from /mount/src/route-resilience-/
+# but Python's module search path doesn't include the project root.
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
 
 import cv2
 import networkx as nx
