@@ -1,0 +1,28 @@
+# Default Configuration for Route Resilience System
+# 4-Hour MVP - Simplified configuration with sensible defaults
+
+models:
+  # Path to segmentation model weights (relative to project root)
+  segmentation_weights: "models/deeplabv3_resnet50.pth"
+  
+  # Model architecture: "deeplabv3+" or "unet"
+  architecture: "deeplabv3+"
+
+preprocessing:
+  # Pixel normalization range [min, max]
+  normalize_range: [0.0, 1.0]
+  
+  # Target image size [height, width] for model input
+  target_size: [512, 512]
+
+graph_healing:
+  # Maximum distance in meters for connecting disconnected road fragments
+  max_connection_distance_meters: 50.0
+  
+  # Minimum target connectivity ratio (nodes in largest component / total nodes)
+  min_connectivity_ratio: 0.85
+
+centrality:
+  # Percentile threshold for identifying high-centrality "gatekeeper" nodes
+  # Nodes above this percentile are considered critical infrastructure
+  gatekeeper_threshold_percentile: 95.0

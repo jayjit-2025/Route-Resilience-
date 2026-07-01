@@ -1,0 +1,42 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Graph Processing
+networkx>=3.0
+
+# Geospatial & Raster Processing
+rasterio>=1.3.0
+GDAL>=3.0.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Image Processing
+opencv-python>=4.8.0
+scikit-image>=0.21.0
+
+# Web Dashboard
+streamlit>=1.28.0
+
+# Visualization
+folium>=0.14.0
+
+# Configuration & Validation
+pydantic>=2.0.0
+pyyaml>=6.0
+
+# Optional: Scientific Computing
+scipy>=1.11.0
+
+# Optional: OpenStreetMap Integration
+osmnx>=1.6.0
+
+# Optional: Geometric Operations
+shapely>=2.0.0
+geopandas>=0.14.0
+
+# Development & Testing
+pytest>=7.4.0
+hypothesis>=6.90.0
+mypy>=1.5.0

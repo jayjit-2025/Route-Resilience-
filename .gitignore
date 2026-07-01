@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model weights (too large for git)
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.ckpt
+
+# Datasets (too large for git)
+datasets/spacenet/
+datasets/deepglobe/
+datasets/opensatmap/
+datasets/osm/
+
+# Cache
+.cache/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro internal
+.kiro/
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test artifacts
+.pytest_cache/
+
+# Outputs
+outputs/
