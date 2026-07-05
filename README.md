@@ -1,28 +1,38 @@
 <div align="center">
 
-# Route Resilience
+<h1>Route Resilience</h1>
 
-**AI-Powered Occlusion-Robust Road Extraction and Graph-Theoretic Urban Road Intelligence**
+<p><strong>AI-Powered Occlusion-Robust Road Extraction and Graph-Theoretic Urban Road Intelligence</strong></p>
 
-*Built for the ISRO Bharatiya Antariksh Hackathon*
+<p><em>Built for the ISRO Bharatiya Antariksh Hackathon</em></p>
 
----
+<hr>
 
-[![Live App](https://img.shields.io/badge/Live%20App-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://route-resilience-.streamlit.app)
-&nbsp;
-[![Demo Video](https://img.shields.io/badge/Demo%20Video-Google%20Drive-F4B400?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/16VCMBuvki1lt9ZxLm6dAgAjEG8zhrX2x/view?usp=drive_link)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayjit-2025/Route-Resilience-)
+<p>
+  <a href="https://route-resilience-.streamlit.app">
+    <img src="https://img.shields.io/badge/Live%20App-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App">
+  </a>
+  &nbsp;
+  <a href="https://drive.google.com/file/d/16VCMBuvki1lt9ZxLm6dAgAjEG8zhrX2x/view?usp=drive_link">
+    <img src="https://img.shields.io/badge/Demo%20Video-Google%20Drive-F4B400?style=for-the-badge&logo=googledrive&logoColor=white" alt="Demo Video">
+  </a>
+  &nbsp;
+  <a href="https://github.com/jayjit-2025/Route-Resilience-">
+    <img src="https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
----
+<hr>
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-Optional-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![NetworkX](https://img.shields.io/badge/NetworkX-3.0%2B-orange?style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Hackathon](https://img.shields.io/badge/ISRO%20Hackathon-2025-0B3D91?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-Optional-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/NetworkX-3.0%2B-orange?style=flat-square" alt="NetworkX">
+  <img src="https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/ISRO%20Hackathon-2025-0B3D91?style=flat-square" alt="ISRO Hackathon">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
+</p>
 
 </div>
 
