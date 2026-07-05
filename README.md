@@ -1,5 +1,3 @@
-<img width="1913" height="787" alt="Screenshot 2026-07-03 172110" src="https://github.com/user-attachments/assets/1c3dcab6-6b25-48a4-a1b1-769612b48c33" /><div align="center">
-
 # Route Resilience
 
 **AI-Powered Occlusion-Robust Road Extraction and Graph-Theoretic Urban Road Intelligence**
