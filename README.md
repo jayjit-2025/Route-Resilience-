@@ -285,46 +285,56 @@ The following steps describe the full demonstration sequence. Image placeholders
 
 Navigate to Page 1. Upload a GeoTIFF, PNG, or JPEG satellite tile. The dashboard displays the original image alongside a preprocessed (normalised) preview and reports whether geospatial metadata (CRS) was detected.
 
-![Upload and preprocessing preview](assets/demo/01_upload_image.png)
+<img width="1280" height="631" alt="WhatsApp Image 2026-07-01 at 10 00 02 PM" src="https://github.com/user-attachments/assets/1e078201-d19a-4196-ae39-602745bada28" />
+
 
 **Step 2 — Road Detection**
 
 Navigate to Page 2. Adjust the segmentation threshold slider (default 0.5) and click "Run Road Segmentation". The dashboard shows the original image, the binary road mask, and a red-overlay composite.
 
-![Road detection output showing mask and overlay](assets/demo/02_road_detection.png)
+<img width="1411" height="853" alt="Screenshot 2026-07-03 164149" src="https://github.com/user-attachments/assets/4fc4c4ad-68b3-48b3-aec3-a7ab9f6ad749" />
+
 
 **Step 3 — Road Reconstruction**
 
 Navigate to Page 3. Click "Extract Skeleton and Build Graph". The pipeline runs skeletonisation, graph construction, and MST healing. The dashboard renders the raw graph and healed graph using actual pixel coordinates (no random layout), highlights recovered edges in green, and reports the Connectivity Ratio before and after healing.
 
-![Road reconstruction: skeleton, raw graph, healed graph](assets/demo/03_road_reconstruction.png)
+<img width="1917" height="752" alt="Screenshot 2026-07-03 164553" src="https://github.com/user-attachments/assets/99bfc172-56e7-49a7-82cf-571217735387" />
+
 
 **Step 4 — Critical Bottleneck Detection**
 
 Navigate to Page 4. Click "Compute Betweenness Centrality". The top-10 Gatekeeper Nodes are listed by centrality score. A centrality heatmap is rendered on the Folium map when geospatial coordinates are available.
 
-![Critical bottleneck detection showing top intersections](assets/demo/04_critical_bottlenecks.png)
+<img width="1913" height="787" alt="Screenshot 2026-07-03 172110" src="https://github.com/user-attachments/assets/33bed12a-b897-49bb-a0f6-aedbeea1ea3e" />
+
 
 **Step 5 — Disaster Simulation**
 
 Navigate to Page 5. Select a simulation mode (Flood, Accident, Bridge Collapse, or Road Construction). Choose nodes or edges to disable using the quick-select buttons (Critical Node, Random Node, Top 3 Gatekeepers) or the multiselect widget. Click "Run Simulation". The dashboard renders a before/after network comparison with disconnected regions highlighted in purple, a traffic redistribution heatmap, a full metrics table, and an auto-generated simulation summary card with recommended action.
 
-![Disaster simulation controls and simulation type selector](assets/demo/05_simulation_controls.png)
-![Before vs After network with disconnected area highlight](assets/demo/05_network_before_after.png)
-![Traffic redistribution heatmap](assets/demo/05_traffic_heatmap.png)
-![Before vs After metrics table and simulation summary](assets/demo/05_metrics_summary.png)
+<img width="1887" height="652" alt="Screenshot 2026-07-03 173200" src="https://github.com/user-attachments/assets/5f32ee79-e564-48e1-bad7-d926822e768e" />
+
+<img width="1597" height="781" alt="Screenshot 2026-07-03 174300" src="https://github.com/user-attachments/assets/7d09dede-24a3-461f-9436-b2fd020e0ed0" />
+
+<img width="1182" height="808" alt="Screenshot 2026-07-03 174339" src="https://github.com/user-attachments/assets/4544b33d-8200-4aef-9ade-0542d38f7c3a" />
+
+<img width="1600" height="731" alt="Screenshot 2026-07-03 174358" src="https://github.com/user-attachments/assets/96494092-bd5b-45bc-830c-ea8a0a19eac7" />
+
 
 **Step 6 — Project Summary**
 
 Navigate to Page 6. All pipeline outputs are presented side by side with the full performance metrics table for evaluation by judges.
 
-![Project summary page with all metrics](assets/demo/06_project_summary.png)
+<img width="1917" height="746" alt="Screenshot 2026-07-03 180815" src="https://github.com/user-attachments/assets/62dc0b39-27d9-45be-871b-1d0dc0819e3a" />
+
 
 **Step 7 — Dataset Info and Evaluation**
 
 Navigate to Page 7. Configure dataset paths, view the augmentation pipeline, and run evaluation against an uploaded ground-truth mask to compute IoU, Dice, and Relaxed IoU.
 
-![Dataset info and evaluation metrics page](assets/demo/07_dataset_info.png)
+<img width="1917" height="857" alt="Screenshot 2026-07-05 132351" src="https://github.com/user-attachments/assets/35aa5ee9-15de-46e4-a245-c154b970515b" />
+
 
 **Expected asset filenames:**
 
