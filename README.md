@@ -275,7 +275,8 @@ The following steps describe the full demonstration sequence. Image placeholders
 
 Navigate to Page 1. Upload a GeoTIFF, PNG, or JPEG satellite tile. The dashboard displays the original image alongside a preprocessed (normalised) preview and reports whether geospatial metadata (CRS) was detected.
 
-![Upload and preprocessing preview](assets/demo/01_upload_image.png)
+<img width="1280" height="631" alt="WhatsApp Image 2026-07-01 at 10 00 02 PM" src="https://github.com/user-attachments/assets/3da2327d-d2ea-4d66-af8a-483138687f5f" />
+
 
 **Step 2 — Road Detection**
 
