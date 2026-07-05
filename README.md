@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1913" height="787" alt="Screenshot 2026-07-03 172110" src="https://github.com/user-attachments/assets/1c3dcab6-6b25-48a4-a1b1-769612b48c33" /><div align="center">
 
 # Route Resilience
 
@@ -290,45 +290,44 @@ Navigate to Page 2. Adjust the segmentation threshold slider (default 0.5) and c
 
 Navigate to Page 3. Click "Extract Skeleton and Build Graph". The pipeline runs skeletonisation, graph construction, and MST healing. The dashboard renders the raw graph and healed graph using actual pixel coordinates (no random layout), highlights recovered edges in green, and reports the Connectivity Ratio before and after healing.
 
-![Road reconstruction: skeleton, raw graph, healed graph](<img width="1917" height="752" alt="Screenshot 2026-07-03 164553" src="https://github.com/user-attachments/assets/040d8a88-a5b7-4345-9351-80f5f193a0c6" />
-)
+<img width="1917" height="752" alt="Screenshot 2026-07-03 164553" src="https://github.com/user-attachments/assets/3d71c87a-93f7-4004-a3e1-2a3da1ffd4a5" />
+
 
 
 **Step 4 — Critical Bottleneck Detection**
 
 Navigate to Page 4. Click "Compute Betweenness Centrality". The top-10 Gatekeeper Nodes are listed by centrality score. A centrality heatmap is rendered on the Folium map when geospatial coordinates are available.
 
-![Critical bottleneck detection showing top intersections](<img width="1913" height="787" alt="Screenshot 2026-07-03 172110" src="https://github.com/user-attachments/assets/22a10a42-fee6-4cb7-99c3-301f12196d25" />
-)
+<img width="1913" height="787" alt="Screenshot 2026-07-03 172110" src="https://github.com/user-attachments/assets/12f1e23f-9722-43d6-96c9-634a728fa5d8" />
+
 
 
 **Step 5 — Disaster Simulation**
 
 Navigate to Page 5. Select a simulation mode (Flood, Accident, Bridge Collapse, or Road Construction). Choose nodes or edges to disable using the quick-select buttons (Critical Node, Random Node, Top 3 Gatekeepers) or the multiselect widget. Click "Run Simulation". The dashboard renders a before/after network comparison with disconnected regions highlighted in purple, a traffic redistribution heatmap, a full metrics table, and an auto-generated simulation summary card with recommended action.
 
-![Disaster simulation controls and simulation type selector](<img width="1887" height="652" alt="Screenshot 2026-07-03 173200" src="https://github.com/user-attachments/assets/51b8ef7e-6708-499b-bf92-7b0a8332627a" />
-)
+<img width="1887" height="652" alt="Screenshot 2026-07-03 173200" src="https://github.com/user-attachments/assets/ac0908af-eb68-4d9b-9818-ba700dc1d7c7" />
 
-![Before vs After network with disconnected area highlight](<img width="1597" height="781" alt="Screenshot 2026-07-03 174300" src="https://github.com/user-attachments/assets/d63187a4-9f5f-4c4b-8a2a-4dbb7a0cdce2" />
-)
-![Traffic redistribution heatmap](<img width="1182" height="808" alt="Screenshot 2026-07-03 174339" src="https://github.com/user-attachments/assets/b71cde23-223d-4f03-bef8-e38ad8756db0" />
-)
-![Before vs After metrics table and simulation summary](<img width="1600" height="731" alt="Screenshot 2026-07-03 174358" src="https://github.com/user-attachments/assets/ddd40fdb-80e1-4f7e-bcc1-b2fca99937ab" />
-)
+
+<img width="1597" height="781" alt="Screenshot 2026-07-03 174300" src="https://github.com/user-attachments/assets/2540e87f-bcc1-4d57-a8c3-df1d8347f501" />
+
+<img width="1182" height="808" alt="Screenshot 2026-07-03 174339" src="https://github.com/user-attachments/assets/9c17f172-3e68-495d-a35a-3ecd3f3de036" />
+
+<img width="1600" height="731" alt="Screenshot 2026-07-03 174358" src="https://github.com/user-attachments/assets/e31222af-b17c-447e-b1d1-d2d677bd19a0" />
+
 
 **Step 6 — Project Summary**
 
 Navigate to Page 6. All pipeline outputs are presented side by side with the full performance metrics table for evaluation by judges.
 
-![Project summary page with all metrics](<img width="1917" height="746" alt="Screenshot 2026-07-03 180815" src="https://github.com/user-attachments/assets/16c7e6e0-3b17-4df6-b4cf-81952371e644" />
-)
+<img width="1917" height="746" alt="Screenshot 2026-07-03 180815" src="https://github.com/user-attachments/assets/66cd7dc9-b6cf-46a7-8fe7-849958979966" />
 
 **Step 7 — Dataset Info and Evaluation**
 
 Navigate to Page 7. Configure dataset paths, view the augmentation pipeline, and run evaluation against an uploaded ground-truth mask to compute IoU, Dice, and Relaxed IoU.
 
-![Dataset info and evaluation metrics page](<img width="1917" height="857" alt="image" src="https://github.com/user-attachments/assets/3fec1bc3-6a22-48e0-bb36-ae076f52dac6" />
-)
+<img width="1917" height="857" alt="Screenshot 2026-07-05 132351" src="https://github.com/user-attachments/assets/9774b67c-1d93-4d58-b1e4-1b4dca1efa45" />
+
 
 **Expected asset filenames:**
 
