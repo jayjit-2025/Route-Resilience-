@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/NetworkX-3.0%2B-orange?style=flat-square" alt="NetworkX">
   <img src="https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/ISRO%20Hackathon-2025-0B3D91?style=flat-square" alt="ISRO Hackathon">
+  <img src="https://img.shields.io/badge/ISRO%20Hackathon-2026-0B3D91?style=flat-square" alt="ISRO Hackathon">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
 </p>
 
