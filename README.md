@@ -9,7 +9,7 @@
 <hr>
 
 <p>
-  <a href="route-resilience.streamlit.app/">
+  <a href="https://route-resilience.streamlit.app/">
     <img src="https://img.shields.io/badge/Live%20App-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App">
   </a>
   &nbsp;
