@@ -82,10 +82,7 @@ Interactive Dashboard
 ```
 
 ---
----
-<img width="1917" height="512" alt="Screenshot 2026-07-03 173854" src="https://github.com/user-attachments/assets/db8bb0d7-3e7a-418e-8798-9b9a483f49e7" />
 
----
 ## 🗂️ Dataset Setup
 
 See the **Dataset Info** page in the dashboard for setup instructions, or download the guide from within the app.
