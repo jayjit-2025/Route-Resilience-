@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/Live%20App-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App">
   </a>
   &nbsp;
-  <a href="https://drive.google.com/file/d/16VCMBuvki1lt9ZxLm6dAgAjEG8zhrX2x/view?usp=drive_link">
+  <a href="https://drive.google.com/drive/folders/1GzTSUQIP-M0Ly_Jo1rctbgnSkL3Xc4EK">
     <img src="https://img.shields.io/badge/Demo%20Video-Google%20Drive-F4B400?style=for-the-badge&logo=googledrive&logoColor=white" alt="Demo Video">
   </a>
   &nbsp;
