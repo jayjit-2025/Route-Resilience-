@@ -282,8 +282,8 @@ Navigate to Page 1. Upload a GeoTIFF, PNG, or JPEG satellite tile. The dashboard
 
 Navigate to Page 2. Adjust the segmentation threshold slider (default 0.5) and click "Run Road Segmentation". The dashboard shows the original image, the binary road mask, and a red-overlay composite.
 
-![Road detection output showing mask and overlay](<img width="1411" height="853" alt="Screenshot 2026-07-03 164149" src="https://github.com/user-attachments/assets/88d11f1a-4e57-4f63-a7f5-dd4fa4b2f555" />
-)
+<img width="1411" height="853" alt="Screenshot 2026-07-03 164149" src="https://github.com/user-attachments/assets/fc80f377-cfcb-42a6-a50d-97b67c1c490d" />
+
 
 
 **Step 3 — Road Reconstruction**
