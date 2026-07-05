@@ -1,8 +1,30 @@
+<div align="center">
+
 # Route Resilience
 
 **AI-Powered Occlusion-Robust Road Extraction and Graph-Theoretic Urban Road Intelligence**
 
-Built for the **ISRO Bharatiya Antariksh Hackathon**
+*Built for the ISRO Bharatiya Antariksh Hackathon*
+
+---
+
+[![Live App](https://img.shields.io/badge/Live%20App-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://route-resilience-.streamlit.app)
+&nbsp;
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-Google%20Drive-F4B400?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/16VCMBuvki1lt9ZxLm6dAgAjEG8zhrX2x/view?usp=drive_link)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/Source%20Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayjit-2025/Route-Resilience-)
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Optional-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-3.0%2B-orange?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Hackathon](https://img.shields.io/badge/ISRO%20Hackathon-2025-0B3D91?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
+</div>
 
 ---
 
@@ -29,6 +51,8 @@ Built for the **ISRO Bharatiya Antariksh Hackathon**
 - [Evaluation Metrics](#evaluation-metrics)
 - [Dataset Setup](#dataset-setup)
 - [Quick Setup](#quick-setup)
+- [Roadmap](#roadmap)
+- [License](#license)
 
 ---
 
@@ -514,3 +538,75 @@ python -m streamlit run dashboard/app.py
 Without PyTorch installed, the segmentation stage falls back to a grayscale threshold. All graph construction, healing, centrality analysis, and disaster simulation features operate without PyTorch.
 
 ---
+
+## Roadmap
+
+The following improvements are planned for post-hackathon development, prioritised by impact.
+
+### Near-Term (1-3 months)
+
+| Item | Description |
+|---|---|
+| Fine-tuned segmentation weights | Train DeepLabV3+ end-to-end on SpaceNet Roads and DeepGlobe with the cloud/shadow augmentation pipeline already implemented in `datasets/transforms.py` |
+| Transformer-based segmentation | Integrate SegFormer or Swin-UNet as a third plugin implementing the `RoadSegmentationModel` protocol |
+| Georeferenced map overlay | Complete Folium satellite image overlay for GeoTIFF inputs; currently requires geospatial metadata |
+| OSM ground-truth validation | Full integration of `datasets/osm_dataset.py` for automatic mask generation and topological accuracy benchmarking |
+| Export to GeoJSON / Shapefile | Allow healed road graphs to be exported as standard GIS vector formats for use in QGIS and ArcGIS |
+
+### Medium-Term (3-6 months)
+
+| Item | Description |
+|---|---|
+| Multi-temporal change detection | Compare road networks extracted from image pairs across time to detect infrastructure damage or new construction |
+| Graph Neural Network healing | Replace MST healing with a GNN trained to predict missing road segments from image context |
+| REST API | Expose the pipeline as a FastAPI service for integration with external planning tools |
+| Cartosat-3 native support | Optimise preprocessing and model fine-tuning for Cartosat-3 high-resolution imagery provided by ISRO |
+| Performance benchmarking suite | Automated benchmark runner comparing IoU, Connectivity Ratio, and Topological Accuracy across all supported datasets |
+
+### Long-Term (6+ months)
+
+| Item | Description |
+|---|---|
+| City-scale processing | Tile-based distributed processing for entire city or district-level imagery using Apache Spark or Dask |
+| Real-time disaster integration | Live ingestion of satellite imagery during disaster events with automated resilience alerts |
+| Multi-modal transport networks | Extend graph analysis to include pedestrian paths, railways, and waterways for complete urban mobility modelling |
+| Federated learning | Collaborative model training across organisations without sharing raw satellite imagery |
+| ISRO Bhuvan integration | Direct data ingestion from ISRO Bhuvan geoportal APIs |
+
+---
+
+## License
+
+This project is released under the **MIT License**.
+
+```
+MIT License
+
+Copyright (c) 2025 Jayjit Dutta
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
+<div align="center">
+Built for the ISRO Bharatiya Antariksh Hackathon 2025
+</div>
